@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Klapi Klapo — Confidentialité et mentions légales</title>
+<style>
+  :root {
+    --violet: #7c3aed; --violet-clair: #a78bfa; --orange: #f97316;
+    --encre: #1e293b; --gris: #64748b; --fond: #f6f5fb; --carte: #ffffff;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --encre: #e2e8f0; --gris: #94a3b8; --fond: #0f172a; --carte: #1e293b; }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; padding: 0 16px 64px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    background: var(--fond); color: var(--encre); line-height: 1.6;
+  }
+  .wrap { max-width: 720px; margin: 0 auto; }
+  header { text-align: center; padding: 48px 0 24px; }
+  header img { width: 96px; height: 96px; border-radius: 22px; box-shadow: 0 8px 24px rgba(0,0,0,.14); }
+  h1 { margin: 16px 0 4px; font-size: 1.9rem; }
+  h1 .o { color: var(--orange); }
+  .tagline { margin: 0; color: var(--gris); }
+  .card {
+    background: var(--carte); border-radius: 20px; padding: 24px;
+    margin: 16px 0; box-shadow: 0 4px 18px rgba(0,0,0,.06);
+  }
+  h2 { margin-top: 0; font-size: 1.15rem; color: var(--violet); }
+  h3 { font-size: 1rem; margin-bottom: 4px; }
+  ul { padding-left: 20px; }
+  li { margin: 6px 0; }
+  a { color: var(--violet); }
+  .maj { color: var(--gris); font-size: .85rem; }
+  footer { text-align: center; color: var(--gris); font-size: .85rem; padding-top: 24px; }
+  .en { border-left: 3px solid var(--violet-clair); padding-left: 16px; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <img src="images/appicon.png" alt="Klapi Klapo">
+  <h1>Klapi <span class="o">Klapo</span></h1>
+  <p class="tagline">Quiz, votes et évaluations en direct, pour toute une salle.</p>
+</header>
+
+<div class="card">
+  <h2>Assistance</h2>
+  <p>Une question, un problème, une demande de suppression de données&nbsp;:<br>
+  <a href="mailto:mythadubiz@gmail.com">mythadubiz@gmail.com</a></p>
+</div>
+
+<div class="card">
+  <h2>Politique de confidentialité</h2>
+  <p class="maj">Dernière mise à jour&nbsp;: 28 septembre 2026.</p>
+
+  <h3>Les participants n'ont pas de compte</h3>
+  <p>Pour rejoindre un sondage, il suffit d'un code ou d'un QR code. Aucune inscription,
+  aucune adresse e-mail, aucun nom réel. La session est <strong>anonyme</strong>&nbsp;: nous
+  conservons le pseudo choisi et les réponses données, rattachés à un identifiant technique
+  qui ne permet d'identifier personne.</p>
+
+  <h3>Les organisateurs ont un compte</h3>
+  <p>Créer et animer des sondages demande un compte, identifié par une <strong>adresse
+  e-mail</strong>. Nous conservons cette adresse, la date de création du compte, et les
+  sondages créés. Un organisateur ne peut voir ni la liste des autres comptes, ni leurs
+  sondages.</p>
+
+  <h3>Mesure d'usage — désactivée par défaut</h3>
+  <p>Une mesure d'usage anonyme peut nous aider à améliorer l'application. Elle est
+  <strong>coupée tant que vous ne l'avez pas explicitement acceptée</strong>, la question
+  n'est posée qu'aux organisateurs, et vous pouvez revenir sur votre choix à tout moment
+  depuis votre espace.</p>
+  <p>Quand elle est active, elle enregistre uniquement des gestes&nbsp;: une action commencée
+  ou terminée, une fonctionnalité utilisée, un écran vu. <strong>Aucune réponse de
+  participant, aucun contenu de sondage et aucune adresse e-mail n'y figurent.</strong></p>
+
+  <h3>Ce que nous ne faisons pas</h3>
+  <ul>
+    <li>Aucune publicité, et <strong>aucun identifiant publicitaire</strong> n'est collecté —
+    l'application n'embarque pas le composant qui le permettrait.</li>
+    <li>Aucune revente, aucun partage de vos données à des tiers commerciaux.</li>
+    <li>Aucun suivi entre applications ou entre sites.</li>
+  </ul>
+
+  <h3>Où vivent les données</h3>
+  <p>Les données sont hébergées par Google Firebase (Firestore et Authentication), dans la
+  région multi-zone <strong>Europe</strong>. Google agit comme sous-traitant technique.</p>
+
+  <h3>Durée et suppression</h3>
+  <p>Un organisateur peut supprimer ses sondages — ce qui supprime les réponses associées —
+  et son compte, depuis l'application. Vous pouvez aussi nous écrire pour demander la
+  suppression de vos données&nbsp;; nous y donnons suite sous 30 jours.</p>
+
+  <h3>Enfants</h3>
+  <p>L'application n'est pas destinée aux enfants de moins de 13 ans et ne leur demande
+  aucune donnée personnelle.</p>
+
+  <h3>Vos droits</h3>
+  <p>Conformément au RGPD, vous disposez d'un droit d'accès, de rectification, d'effacement,
+  de limitation et d'opposition. Écrivez-nous à l'adresse ci-dessus.</p>
+</div>
+
+<div class="card en">
+  <h2>Privacy Policy (English summary)</h2>
+  <p class="maj">Last updated: 28 September 2026.</p>
+  <p><strong>Participants need no account.</strong> Joining a poll requires only a code or a
+  QR code — no sign-up, no email, no real name. The session is anonymous; we keep the chosen
+  nickname and the answers given, tied to a technical identifier that identifies no one.</p>
+  <p><strong>Organizers have an account</strong>, identified by an email address. We keep that
+  address, the account creation date, and the polls created. An organizer can see neither the
+  list of other accounts nor their polls.</p>
+  <p><strong>Usage measurement is off by default.</strong> It stays disabled until you
+  explicitly accept, the question is asked to organizers only, and you can change your mind at
+  any time. When active it records gestures only — an action started or completed, a feature
+  used, a screen viewed. No participant answer, no poll content and no email address are
+  included.</p>
+  <p><strong>No advertising, no advertising identifier</strong> (the app does not embed the
+  component that would allow it), no resale, no cross-app or cross-site tracking.</p>
+  <p>Data is hosted by Google Firebase (Firestore and Authentication) in the
+  <strong>European</strong> multi-region. Organizers can delete their polls — which deletes the
+  associated answers — and their account from within the app, or write to us; we act within 30
+  days. The app is not intended for children under 13. Under GDPR you have rights of access,
+  rectification, erasure, restriction and objection — write to the address above.</p>
+</div>
+
+<footer>© 2026 Mythadubiz</footer>
+
+</div>
+</body>
+</html>
